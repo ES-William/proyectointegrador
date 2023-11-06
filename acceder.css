@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(fondo.avif) no-repeat center center fixed;
+    background-size: 100% 100%; 
+    text-align: center;
+    padding-top: 100px;
+}
+/* Estilo para el logotipo */
+.logo {
+    
+        position: absolute;
+        top: 10px; /* Ajusta la distancia desde la parte superior */
+        left: 10px; /* Ajusta la distancia desde la izquierda */
+        width: 150px; /* Ajusta el ancho del logotipo según sea necesario */
+    }
+
+
+.login-container {
+    background-color: rgba(17, 16, 16, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+p { 
+    color: #ffffff;
+}
+
+.input-group {
+    margin: 10px 40px;
+    
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #daa7399c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
